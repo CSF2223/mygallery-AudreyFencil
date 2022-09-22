@@ -10,7 +10,7 @@ tertiary color: #4C0033
       selector{property:value;}
 */
 
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400&family=Dangrek&family=Open+Sans:wght@300;400;600;700&display=swap');
 
 html {
     font-size: 62.5%; /* Default font size is 16px - 62.5% of 16 is 10px - 
@@ -18,22 +18,30 @@ html {
 }
 
 header{
-    margin: 0 4rem;
+    margin-top:10px;
+    margin-left: auto;
+    margin-right: auto;
     letter-spacing: 0.8rem;
     text-align: center;
     /*border-bottom: 1px solid #826F66;
     border-right: 1px solid #826F66;
     border-left: 1px solid #826F66;*/
     padding: 0.5rem;
-    box-shadow: 4px 4px 5px rgba(0,0,0,0.4);
+    /*box-shadow: 4px 4px 5px rgba(0,0,0,0.4);*/
+    width: 60rem;
     text-transform: uppercase;
-    font-size: 1.1rem;
+    font-size: 4.0rem;
+    color:#F5EFE6;
+    text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+    font-family: 'Dangrek';
+    border-radius:50px;
+    /*background-color: #F5EFE6;*/
 }
 
 body {
     margin: 0;
     background-color:#FFC4C4;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'DM sans', sans-serif;
     color: #F7CCAC;
 }
 
@@ -62,22 +70,29 @@ p {
 .imageCard img {
     width: 70%;
     height: 75%;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.19);
+    border-radius: 15px;
+    /*box-shadow: 0 4px 8px 0 rgba(1,0,0,0.19);*/
+    border-bottom: 10px solid #C689C6;
+    border-right: 10px solid #C689C6;
+    border-left: 10px solid #C689C6;
+    border-top: 10px solid #C689C6;
 }
 
 .cardText {
-    color: #C689C6;
+    color: #F5EFE6;
     text-align: center;
     padding: 1rem;
-    border-radius: 30px;
+    border-radius: 15px;
     margin-top: 2rem;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.19);
+    background-color:#C689C6;
+    padding-right:30px;
+    padding-left:30px;
 }
 
 @media (min-width: 768px) {
     header {
-        font-size: 1.6rem;
+        font-size: 2.0rem;
     }
     
     .gallery {
