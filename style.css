@@ -53,6 +53,23 @@ p {
     font-size: 1.2rem;
 }
 
+.headerImgRight {
+    width: 50rem;
+    height: 50rem;
+    position: absolute;
+    left:950px;
+    top:0;
+}
+
+.headerImgLeft {
+    width: 50rem;
+    height: 50rem;
+    position: absolute;
+    right:760px;
+    top:0;
+}
+
+
 .imageCard {
     display: flex;
     flex-direction: column;
